@@ -11,8 +11,8 @@ export default function Contact() {
       <div className="colophon-text">
         <GlowCard>
           <p>
-            Расскажите о задаче — вместе подберём решение. Отвечаю в течение
-            дня.
+            Расскажите о задаче <br />
+            Отвечаю в течение дня.
           </p>
           <button
             type="button"

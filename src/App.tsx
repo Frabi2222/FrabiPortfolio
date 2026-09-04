@@ -9,11 +9,13 @@ import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import Bookmarks from "./components/Bookmarks";
 import Ornament from "./components/Ornament";
+import Preloader from "./components/Preloader";
 import { BG_COLORS } from "./data/config";
 
 export default function App() {
   return (
     <>
+      <Preloader />
       <div className="bg-layer" aria-hidden="true">
         <Ferrofluid
           colors={BG_COLORS}

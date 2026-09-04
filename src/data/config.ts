@@ -1,4 +1,5 @@
 export const BG_COLORS = ["#8b7355", "#6b5a3e", "#3d2e1c"];
+export const PRELOADER_BG_COLORS = ["#0f0f11", "#1a1a1d", "#252529"];
 
 export const CARD_GLOW_PROPS = {
   backgroundColor: "#f5f0e8",
