@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     fullDescription:
       "Полноценное веб-приложение для хранения и поиска рецептов. Регистрация и авторизация, добавление своих рецептов с фото и пошаговым описанием, фильтрация по категориям и ингредиентам. Реализована работа с MongoDB для хранения данных, Express для серверной логики и React для интерфейса.",
     tags: ["React", "Node.js", "MongoDB"],
-    link: "#",
+    link: "https://recipe-site-henna-three.vercel.app/",
     images: [
       "https://storage.yandexcloud.net/recipesimage/portfolio-static/recipesite1.png",
       "https://storage.yandexcloud.net/recipesimage/portfolio-static/recipesite2.png",
