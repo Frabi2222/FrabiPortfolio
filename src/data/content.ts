@@ -49,9 +49,9 @@ export const PROJECTS: Project[] = [
     title: "Admin Panel",
     description: "Панель управления для сайта.",
     fullDescription:
-      "Панель управления для сайта: управление пользователями, контентом и статистикой. Защищённый доступ, динамические таблицы, фильтрация и пагинация данных. Создана на TypeScript, Express и React с акцентом на типизацию и безопасность.",
+      "Панель управления для сайта: управление пользователями, контентом и статистикой. Защищённый доступ, динамические таблицы, фильтрация и пагинация данных. Создана на TypeScript, Express и React с акцентом на типизацию и безопасность. (Тестовый аккаунт с админкой: test@test.com | testtest)",
     tags: ["TypeScript", "Express", "React"],
-    link: "#",
+    link: "https://admin-panel-wheat-omega.vercel.app/",
     images: [
       "https://storage.yandexcloud.net/recipesimage/portfolio-static/adminpanel1.png",
       "https://storage.yandexcloud.net/recipesimage/portfolio-static/adminpanel2.png",
