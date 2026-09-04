@@ -38,7 +38,19 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              <span className="project-link">Открыть проект →</span>
+              {project.link && project.link !== "#" ? (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Открыть проект →
+                </a>
+              ) : (
+                <span className="project-link">Открыть проект →</span>
+              )}
             </div>
           </GlowCard>
         ))}
